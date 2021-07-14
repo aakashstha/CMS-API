@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-let url = "https://testing2.vercel.app/";
+let url = "https://cms-api-heraldcollege.vercel.app/";
 if (process.env.NODE_ENV === "development") {
   url = "http://127.0.0.1:3000";
 }
