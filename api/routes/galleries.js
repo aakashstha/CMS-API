@@ -41,8 +41,7 @@ const fileFilter = (req, file, cb) => {
   ) {
     // store file with this extension
     cb(null, true);
-  }
-  {
+  } else {
     // reject a file with different extension
     cb(null, false);
   }
