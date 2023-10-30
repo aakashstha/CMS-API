@@ -10,6 +10,7 @@ const eventsRoutes = require("./api/routes/events");
 const galleryRoutes = require("./api/routes/galleries");
 const adminRoutes = require("./api/routes/admin");
 
+
 // For Searching Course
 const Course = require("./api/models/course");
 
